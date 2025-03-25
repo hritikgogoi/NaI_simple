@@ -1,0 +1,78 @@
+
+
+#_Collimator_front
+
+/score/create/realWorldLogVol Cylinder_f 0
+/score/quantity/volumeFlux collimator_front
+/score/filter/particle NeutronFilter neutron
+/score/close
+
+#_Cd_front
+
+/score/create/realWorldLogVol Filter 0
+/score/quantity/volumeFlux Cd_front
+/score/filter/particle NeutronFilter neutron
+#/score/close
+
+#_Cd_back
+
+#/score/create/realWorldLogVol Filter 1
+/score/quantity/passageCellCurrent Cd_back
+/score/close
+
+
+#_Phantom_front
+
+/score/create/realWorldLogVol scorer_f 0
+/score/quantity/volumeFlux phantom_front
+/score/filter/particle NeutronFilter neutron
+/score/close
+
+
+#_Phantom_middle
+
+/score/create/realWorldLogVol scorer_m 0
+/score/quantity/volumeFlux phantom_middle
+/score/filter/particle NeutronFilter neutron
+/score/close
+
+
+#_Phantom_last
+
+/score/create/realWorldLogVol scorer_l 0
+/score/quantity/volumeFlux phantom_last
+/score/filter/particle NeutronFilter neutron
+/score/close
+
+#_gold
+
+/score/create/realWorldLogVol  foil_m 0
+/score/quantity/volumeFlux gold_foil
+/score/filter/particle NeutronFilter neutron
+/score/close
+
+
+
+
+
+/analysis/h1/create collimator_front Cylinder_f 100 0.000000001 10000 keV ! log
+/analysis/h1/create Cd_front Filter 100 0.000000001 10000 keV ! log
+/analysis/h1/create Cd_back Filter 100 0.000000001 10000 keV ! log
+/analysis/h1/create phantom_front scorer_f 100   0.000000001 10000 keV ! log
+/analysis/h1/create phantom_middle scorer_m 100   0.000000001 10000 keV ! log
+/analysis/h1/create phantom_last scorer_l 100   0.000000001 10000 keV ! log
+/analysis/h1/create  gold_foil foil_m 100   0.000000001 10000 keV ! log
+
+
+/score/fill1D 0 Cylinder_f collimator_front
+/score/fill1D 1 Filter Cd_front
+/score/fill1D 2 Filter Cd_back
+/score/fill1D 3 scorer_f phantom_front
+/score/fill1D 4 scorer_m phantom_middle
+/score/fill1D 5  scorer_l phantom_last
+/score/fill1D 6  foil_m gold_foil
+
+/run/beamOn 50
+#/run/beamOn 100000
+
+

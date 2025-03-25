@@ -1,0 +1,35 @@
+
+
+/control/verbose 2
+
+
+
+
+/run/initialize
+
+
+
+
+/gps/source/intensity 1
+/gps/particle ion
+/gps/ion 55 137 0 0
+/gps/energy 0.0 eV
+#/gps/pos/type Plane
+#/gps/pos/shape Circle
+#/gps/pos/radius  1.5 cm
+/gps/pos/centre 0 0 -5 cm
+
+
+
+
+
+#/control/execute Cs.mac
+
+#/control/execute scorer.mac
+
+/run/beamOn 1000000
+
+
+
+
+
