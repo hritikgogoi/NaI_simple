@@ -64,11 +64,11 @@ RunAction::RunAction()
   G4AccumulableManager* accumulableManager = G4AccumulableManager::Instance();
   accumulableManager->RegisterAccumulable(fEdep);
   accumulableManager->RegisterAccumulable(fEdep2);
-   G4AnalysisManager *man=G4AnalysisManager::Instance();
+ //  G4AnalysisManager *man=G4AnalysisManager::Instance();
  	
- 	man->CreateNtuple("Photons_PMT1","Photons");
-	man->CreateNtupleIColumn("fEvent");
-	man->FinishNtuple(0);
+ //	man->CreateNtuple("Photons_PMT1","Photons");
+//	man->CreateNtupleIColumn("fEvent");
+//man->FinishNtuple(0);
 
 }
 
@@ -86,11 +86,11 @@ void RunAction::BeginOfRunAction(const G4Run*)
 
 
 
-  G4AnalysisManager *man=G4AnalysisManager::Instance();
+  //G4AnalysisManager *man=G4AnalysisManager::Instance();
 	
 	//man->OpenFile("output"+strRunID.str()+".root");
-	man->SetNtupleMerging(true);
-  	man->OpenFile("output.root");
+//	man->SetNtupleMerging(true);
+  //	man->OpenFile("output.root");
   
   
   
@@ -165,9 +165,9 @@ void RunAction::EndOfRunAction(const G4Run* run)
      << G4endl;
      
      
-     G4AnalysisManager *man=G4AnalysisManager::Instance();
-	man->Write();
-	man->CloseFile();
+    // G4AnalysisManager *man=G4AnalysisManager::Instance();
+	//man->Write();
+	//man->CloseFile();
      
      
      

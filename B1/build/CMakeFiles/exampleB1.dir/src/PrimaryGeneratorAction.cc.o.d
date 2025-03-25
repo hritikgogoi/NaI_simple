@@ -1,7 +1,7 @@
 CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o: \
- /home/luit/Hritik_laptop/my-git-folder/B1/src/PrimaryGeneratorAction.cc \
+ /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/src/PrimaryGeneratorAction.cc \
  /usr/include/stdc-predef.h \
- /home/luit/Hritik_laptop/my-git-folder/B1/include/PrimaryGeneratorAction.hh \
+ /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/include/PrimaryGeneratorAction.hh \
  /home/luit/g4_try/geant4-v11.1.1-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
  /home/luit/g4_try/geant4-v11.1.1-install/include/Geant4/globals.hh \
  /home/luit/g4_try/geant4-v11.1.1-install/include/Geant4/G4ios.hh \
@@ -235,7 +235,7 @@ CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o: \
  /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h \
- /home/luit/Hritik_laptop/my-git-folder/B1/include/DetectorConstruction.hh \
+ /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/include/DetectorConstruction.hh \
  /home/luit/g4_try/geant4-v11.1.1-install/include/Geant4/G4VUserDetectorConstruction.hh \
  /home/luit/g4_try/geant4-v11.1.1-install/include/Geant4/globals.hh \
  /home/luit/g4_try/geant4-v11.1.1-install/include/Geant4/G4ios.hh \

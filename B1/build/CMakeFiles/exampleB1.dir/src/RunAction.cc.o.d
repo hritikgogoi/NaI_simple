@@ -1,7 +1,7 @@
 CMakeFiles/exampleB1.dir/src/RunAction.cc.o: \
- /home/luit/Hritik_laptop/my-git-folder/B1/src/RunAction.cc \
+ /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/src/RunAction.cc \
  /usr/include/stdc-predef.h \
- /home/luit/Hritik_laptop/my-git-folder/B1/include/RunAction.hh \
+ /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/include/RunAction.hh \
  /home/luit/g4_try/geant4-v11.1.1-install/include/Geant4/G4UserRunAction.hh \
  /home/luit/g4_try/geant4-v11.1.1-install/include/Geant4/G4Types.hh \
  /home/luit/g4_try/geant4-v11.1.1-install/include/Geant4/G4GlobalConfig.hh \
@@ -241,9 +241,9 @@ CMakeFiles/exampleB1.dir/src/RunAction.cc.o: \
  /home/luit/g4_try/geant4-v11.1.1-install/include/Geant4/G4MergeMode.hh \
  /home/luit/g4_try/geant4-v11.1.1-install/include/Geant4/G4Accumulable.icc \
  /home/luit/g4_try/geant4-v11.1.1-install/include/Geant4/globals.hh \
- /home/luit/Hritik_laptop/my-git-folder/B1/include/PrimaryGeneratorAction.hh \
+ /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/include/PrimaryGeneratorAction.hh \
  /home/luit/g4_try/geant4-v11.1.1-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
- /home/luit/Hritik_laptop/my-git-folder/B1/include/DetectorConstruction.hh \
+ /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/include/DetectorConstruction.hh \
  /home/luit/g4_try/geant4-v11.1.1-install/include/Geant4/G4VUserDetectorConstruction.hh \
  /home/luit/g4_try/geant4-v11.1.1-install/include/Geant4/G4RunManager.hh \
  /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \

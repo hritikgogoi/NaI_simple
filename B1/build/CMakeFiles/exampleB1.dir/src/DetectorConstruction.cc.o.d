@@ -1,7 +1,7 @@
 CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o: \
- /home/luit/Hritik_laptop/my-git-folder/B1/src/DetectorConstruction.cc \
+ /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/src/DetectorConstruction.cc \
  /usr/include/stdc-predef.h \
- /home/luit/Hritik_laptop/my-git-folder/B1/include/DetectorConstruction.hh \
+ /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/include/DetectorConstruction.hh \
  /home/luit/g4_try/geant4-v11.1.1-install/include/Geant4/G4VUserDetectorConstruction.hh \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
