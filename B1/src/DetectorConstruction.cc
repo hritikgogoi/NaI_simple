@@ -104,23 +104,30 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
   G4double MgO_thickness = 0.5 * mm;
   G4double Al_thickness = 0.5 * mm;
 
+  G4double MgO_front_shifitng=NaI_height/2+MgO_thickness/2;
+  G4double Al_front_shifitng=NaI_height/2+MgO_thickness+Al_thickness/2;
+
   //  Create NaI(Tl) Detector (Scintillator)
   G4Tubs* solidNaI = new G4Tubs("NaI_Tl", 0, NaI_radius, NaI_height / 2, 0, 360 * deg);
   G4LogicalVolume* logicNaI = new G4LogicalVolume(solidNaI, NaI_Tl, "NaI_Tl_Logical");
 
-  //  Create MgO Reflective Layer (Covers Top & Sides, Open Back)
+  //  Create MgO Reflective Layer (Covers  Front & Sides, Open Back)
   G4Tubs* solidMgO = new G4Tubs("MgO_Layer", NaI_radius, NaI_radius + MgO_thickness, NaI_height / 2, 0, 360 * deg);
   G4LogicalVolume* logicMgO = new G4LogicalVolume(solidMgO, MgO, "MgO_Logical");
-
-  //  Create Aluminum Outer Layer (Covers Top & Sides, Open Back)
+  G4Tubs* solidMgO_front = new G4Tubs("MgO_Layer", 0, NaI_radius + MgO_thickness,  MgO_thickness/ 2, 0, 360 * deg);
+  G4LogicalVolume* logicMgO_front = new G4LogicalVolume(solidMgO_front, MgO, "MgO_Logical_Front");
+  //  Create Aluminum Outer Layer (Covers  Front & Sides, Open Back)
   G4Tubs* solidAl = new G4Tubs("Al_Layer", NaI_radius + MgO_thickness, NaI_radius + MgO_thickness + Al_thickness, NaI_height / 2, 0, 360 * deg);
   G4LogicalVolume* logicAl = new G4LogicalVolume(solidAl, Al, "Al_Logical");
-
+  G4Tubs* solidAl_front = new G4Tubs("Al_Layer", 0, NaI_radius + MgO_thickness + Al_thickness,  Al_thickness/ 2, 0, 360 * deg);
+  G4LogicalVolume* logicAl_front  = new G4LogicalVolume(solidAl_front , Al, "Al_Logical_Front");
     //  Place Components in World Volume
 
   new G4PVPlacement(0, G4ThreeVector(0, 0, 0), logicNaI, "NaI_Tl_Physical", logicWorld, false, 0, true);
   new G4PVPlacement(0, G4ThreeVector(0, 0, 0), logicMgO, "MgO_Physical", logicWorld, false, 0, true);
+  new G4PVPlacement(0, G4ThreeVector(0, 0, -MgO_front_shifitng), logicMgO_front, "MgO_Physical_Front", logicWorld, false, 0, true);
   new G4PVPlacement(0, G4ThreeVector(0, 0, 0), logicAl, "Al_Physical", logicWorld, false, 0, true);
+  new G4PVPlacement(0, G4ThreeVector(0, 0, -Al_front_shifitng), logicAl_front, "Al_Physical_Front", logicWorld, false, 0, true);
 
 
 

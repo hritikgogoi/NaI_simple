@@ -1,4 +1,4 @@
-# Install script for directory: /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1
+# Install script for directory: /home/luit/Hritik_laptop/my-git-folder/B1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,7 +49,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/exampleB1"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/build/exampleB1")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/luit/Hritik_laptop/my-git-folder/B1/build/exampleB1")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/exampleB1" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/exampleB1")
     file(RPATH_CHANGE
@@ -70,5 +70,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/luit/Hritik_laptop/my-git-folder/B1/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

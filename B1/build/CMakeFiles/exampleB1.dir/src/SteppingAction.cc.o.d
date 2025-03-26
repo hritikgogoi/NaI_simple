@@ -1,7 +1,7 @@
 CMakeFiles/exampleB1.dir/src/SteppingAction.cc.o: \
- /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/src/SteppingAction.cc \
+ /home/luit/Hritik_laptop/my-git-folder/B1/src/SteppingAction.cc \
  /usr/include/stdc-predef.h \
- /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/include/SteppingAction.hh \
+ /home/luit/Hritik_laptop/my-git-folder/B1/include/SteppingAction.hh \
  /home/luit/g4_try/geant4-v11.1.1-install/include/Geant4/G4UserSteppingAction.hh \
  /home/luit/g4_try/geant4-v11.1.1-install/include/Geant4/globals.hh \
  /home/luit/g4_try/geant4-v11.1.1-install/include/Geant4/G4ios.hh \
@@ -235,9 +235,9 @@ CMakeFiles/exampleB1.dir/src/SteppingAction.cc.o: \
  /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h \
- /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/include/EventAction.hh \
+ /home/luit/Hritik_laptop/my-git-folder/B1/include/EventAction.hh \
  /home/luit/g4_try/geant4-v11.1.1-install/include/Geant4/G4UserEventAction.hh \
- /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/include/DetectorConstruction.hh \
+ /home/luit/Hritik_laptop/my-git-folder/B1/include/DetectorConstruction.hh \
  /home/luit/g4_try/geant4-v11.1.1-install/include/Geant4/G4VUserDetectorConstruction.hh \
  /home/luit/g4_try/geant4-v11.1.1-install/include/Geant4/globals.hh \
  /home/luit/g4_try/geant4-v11.1.1-install/include/Geant4/G4Step.hh \

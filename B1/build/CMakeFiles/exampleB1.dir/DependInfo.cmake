@@ -8,13 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/exampleB1.cc" "CMakeFiles/exampleB1.dir/exampleB1.cc.o" "gcc" "CMakeFiles/exampleB1.dir/exampleB1.cc.o.d"
-  "/home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/src/ActionInitialization.cc" "CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.o" "gcc" "CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.o.d"
-  "/home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/src/DetectorConstruction.cc" "CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o" "gcc" "CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o.d"
-  "/home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/src/EventAction.cc" "CMakeFiles/exampleB1.dir/src/EventAction.cc.o" "gcc" "CMakeFiles/exampleB1.dir/src/EventAction.cc.o.d"
-  "/home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/src/PrimaryGeneratorAction.cc" "CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o" "gcc" "CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o.d"
-  "/home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/src/RunAction.cc" "CMakeFiles/exampleB1.dir/src/RunAction.cc.o" "gcc" "CMakeFiles/exampleB1.dir/src/RunAction.cc.o.d"
-  "/home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/src/SteppingAction.cc" "CMakeFiles/exampleB1.dir/src/SteppingAction.cc.o" "gcc" "CMakeFiles/exampleB1.dir/src/SteppingAction.cc.o.d"
+  "/home/luit/Hritik_laptop/my-git-folder/B1/exampleB1.cc" "CMakeFiles/exampleB1.dir/exampleB1.cc.o" "gcc" "CMakeFiles/exampleB1.dir/exampleB1.cc.o.d"
+  "/home/luit/Hritik_laptop/my-git-folder/B1/src/ActionInitialization.cc" "CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.o" "gcc" "CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.o.d"
+  "/home/luit/Hritik_laptop/my-git-folder/B1/src/DetectorConstruction.cc" "CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o" "gcc" "CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o.d"
+  "/home/luit/Hritik_laptop/my-git-folder/B1/src/EventAction.cc" "CMakeFiles/exampleB1.dir/src/EventAction.cc.o" "gcc" "CMakeFiles/exampleB1.dir/src/EventAction.cc.o.d"
+  "/home/luit/Hritik_laptop/my-git-folder/B1/src/PrimaryGeneratorAction.cc" "CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o" "gcc" "CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o.d"
+  "/home/luit/Hritik_laptop/my-git-folder/B1/src/RunAction.cc" "CMakeFiles/exampleB1.dir/src/RunAction.cc.o" "gcc" "CMakeFiles/exampleB1.dir/src/RunAction.cc.o.d"
+  "/home/luit/Hritik_laptop/my-git-folder/B1/src/SteppingAction.cc" "CMakeFiles/exampleB1.dir/src/SteppingAction.cc.o" "gcc" "CMakeFiles/exampleB1.dir/src/SteppingAction.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

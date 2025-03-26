@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1
+CMAKE_SOURCE_DIR = /home/luit/Hritik_laptop/my-git-folder/B1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/build
+CMAKE_BINARY_DIR = /home/luit/Hritik_laptop/my-git-folder/B1/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/exampleB1.dir/depend.make
@@ -70,102 +70,102 @@ include CMakeFiles/exampleB1.dir/progress.make
 include CMakeFiles/exampleB1.dir/flags.make
 
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: CMakeFiles/exampleB1.dir/flags.make
-CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/exampleB1.cc
+CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/luit/Hritik_laptop/my-git-folder/B1/exampleB1.cc
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: CMakeFiles/exampleB1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/exampleB1.dir/exampleB1.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleB1.dir/exampleB1.cc.o -MF CMakeFiles/exampleB1.dir/exampleB1.cc.o.d -o CMakeFiles/exampleB1.dir/exampleB1.cc.o -c /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/exampleB1.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luit/Hritik_laptop/my-git-folder/B1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/exampleB1.dir/exampleB1.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleB1.dir/exampleB1.cc.o -MF CMakeFiles/exampleB1.dir/exampleB1.cc.o.d -o CMakeFiles/exampleB1.dir/exampleB1.cc.o -c /home/luit/Hritik_laptop/my-git-folder/B1/exampleB1.cc
 
 CMakeFiles/exampleB1.dir/exampleB1.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleB1.dir/exampleB1.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/exampleB1.cc > CMakeFiles/exampleB1.dir/exampleB1.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luit/Hritik_laptop/my-git-folder/B1/exampleB1.cc > CMakeFiles/exampleB1.dir/exampleB1.cc.i
 
 CMakeFiles/exampleB1.dir/exampleB1.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleB1.dir/exampleB1.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/exampleB1.cc -o CMakeFiles/exampleB1.dir/exampleB1.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luit/Hritik_laptop/my-git-folder/B1/exampleB1.cc -o CMakeFiles/exampleB1.dir/exampleB1.cc.s
 
 CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.o: CMakeFiles/exampleB1.dir/flags.make
-CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.o: /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/src/ActionInitialization.cc
+CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.o: /home/luit/Hritik_laptop/my-git-folder/B1/src/ActionInitialization.cc
 CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.o: CMakeFiles/exampleB1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.o -MF CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.o.d -o CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.o -c /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/src/ActionInitialization.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luit/Hritik_laptop/my-git-folder/B1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.o -MF CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.o.d -o CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.o -c /home/luit/Hritik_laptop/my-git-folder/B1/src/ActionInitialization.cc
 
 CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/src/ActionInitialization.cc > CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luit/Hritik_laptop/my-git-folder/B1/src/ActionInitialization.cc > CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.i
 
 CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/src/ActionInitialization.cc -o CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luit/Hritik_laptop/my-git-folder/B1/src/ActionInitialization.cc -o CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.s
 
 CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o: CMakeFiles/exampleB1.dir/flags.make
-CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o: /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/src/DetectorConstruction.cc
+CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o: /home/luit/Hritik_laptop/my-git-folder/B1/src/DetectorConstruction.cc
 CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o: CMakeFiles/exampleB1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o -MF CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o.d -o CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o -c /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/src/DetectorConstruction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luit/Hritik_laptop/my-git-folder/B1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o -MF CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o.d -o CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o -c /home/luit/Hritik_laptop/my-git-folder/B1/src/DetectorConstruction.cc
 
 CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/src/DetectorConstruction.cc > CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luit/Hritik_laptop/my-git-folder/B1/src/DetectorConstruction.cc > CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.i
 
 CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/src/DetectorConstruction.cc -o CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luit/Hritik_laptop/my-git-folder/B1/src/DetectorConstruction.cc -o CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.s
 
 CMakeFiles/exampleB1.dir/src/EventAction.cc.o: CMakeFiles/exampleB1.dir/flags.make
-CMakeFiles/exampleB1.dir/src/EventAction.cc.o: /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/src/EventAction.cc
+CMakeFiles/exampleB1.dir/src/EventAction.cc.o: /home/luit/Hritik_laptop/my-git-folder/B1/src/EventAction.cc
 CMakeFiles/exampleB1.dir/src/EventAction.cc.o: CMakeFiles/exampleB1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/exampleB1.dir/src/EventAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleB1.dir/src/EventAction.cc.o -MF CMakeFiles/exampleB1.dir/src/EventAction.cc.o.d -o CMakeFiles/exampleB1.dir/src/EventAction.cc.o -c /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/src/EventAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luit/Hritik_laptop/my-git-folder/B1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/exampleB1.dir/src/EventAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleB1.dir/src/EventAction.cc.o -MF CMakeFiles/exampleB1.dir/src/EventAction.cc.o.d -o CMakeFiles/exampleB1.dir/src/EventAction.cc.o -c /home/luit/Hritik_laptop/my-git-folder/B1/src/EventAction.cc
 
 CMakeFiles/exampleB1.dir/src/EventAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleB1.dir/src/EventAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/src/EventAction.cc > CMakeFiles/exampleB1.dir/src/EventAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luit/Hritik_laptop/my-git-folder/B1/src/EventAction.cc > CMakeFiles/exampleB1.dir/src/EventAction.cc.i
 
 CMakeFiles/exampleB1.dir/src/EventAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleB1.dir/src/EventAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/src/EventAction.cc -o CMakeFiles/exampleB1.dir/src/EventAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luit/Hritik_laptop/my-git-folder/B1/src/EventAction.cc -o CMakeFiles/exampleB1.dir/src/EventAction.cc.s
 
 CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/exampleB1.dir/flags.make
-CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o: /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/src/PrimaryGeneratorAction.cc
+CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o: /home/luit/Hritik_laptop/my-git-folder/B1/src/PrimaryGeneratorAction.cc
 CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/exampleB1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o -MF CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o.d -o CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o -c /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/src/PrimaryGeneratorAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luit/Hritik_laptop/my-git-folder/B1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o -MF CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o.d -o CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o -c /home/luit/Hritik_laptop/my-git-folder/B1/src/PrimaryGeneratorAction.cc
 
 CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/src/PrimaryGeneratorAction.cc > CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luit/Hritik_laptop/my-git-folder/B1/src/PrimaryGeneratorAction.cc > CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.i
 
 CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/src/PrimaryGeneratorAction.cc -o CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luit/Hritik_laptop/my-git-folder/B1/src/PrimaryGeneratorAction.cc -o CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.s
 
 CMakeFiles/exampleB1.dir/src/RunAction.cc.o: CMakeFiles/exampleB1.dir/flags.make
-CMakeFiles/exampleB1.dir/src/RunAction.cc.o: /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/src/RunAction.cc
+CMakeFiles/exampleB1.dir/src/RunAction.cc.o: /home/luit/Hritik_laptop/my-git-folder/B1/src/RunAction.cc
 CMakeFiles/exampleB1.dir/src/RunAction.cc.o: CMakeFiles/exampleB1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/exampleB1.dir/src/RunAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleB1.dir/src/RunAction.cc.o -MF CMakeFiles/exampleB1.dir/src/RunAction.cc.o.d -o CMakeFiles/exampleB1.dir/src/RunAction.cc.o -c /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/src/RunAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luit/Hritik_laptop/my-git-folder/B1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/exampleB1.dir/src/RunAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleB1.dir/src/RunAction.cc.o -MF CMakeFiles/exampleB1.dir/src/RunAction.cc.o.d -o CMakeFiles/exampleB1.dir/src/RunAction.cc.o -c /home/luit/Hritik_laptop/my-git-folder/B1/src/RunAction.cc
 
 CMakeFiles/exampleB1.dir/src/RunAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleB1.dir/src/RunAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/src/RunAction.cc > CMakeFiles/exampleB1.dir/src/RunAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luit/Hritik_laptop/my-git-folder/B1/src/RunAction.cc > CMakeFiles/exampleB1.dir/src/RunAction.cc.i
 
 CMakeFiles/exampleB1.dir/src/RunAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleB1.dir/src/RunAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/src/RunAction.cc -o CMakeFiles/exampleB1.dir/src/RunAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luit/Hritik_laptop/my-git-folder/B1/src/RunAction.cc -o CMakeFiles/exampleB1.dir/src/RunAction.cc.s
 
 CMakeFiles/exampleB1.dir/src/SteppingAction.cc.o: CMakeFiles/exampleB1.dir/flags.make
-CMakeFiles/exampleB1.dir/src/SteppingAction.cc.o: /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/src/SteppingAction.cc
+CMakeFiles/exampleB1.dir/src/SteppingAction.cc.o: /home/luit/Hritik_laptop/my-git-folder/B1/src/SteppingAction.cc
 CMakeFiles/exampleB1.dir/src/SteppingAction.cc.o: CMakeFiles/exampleB1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/exampleB1.dir/src/SteppingAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleB1.dir/src/SteppingAction.cc.o -MF CMakeFiles/exampleB1.dir/src/SteppingAction.cc.o.d -o CMakeFiles/exampleB1.dir/src/SteppingAction.cc.o -c /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/src/SteppingAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luit/Hritik_laptop/my-git-folder/B1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/exampleB1.dir/src/SteppingAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleB1.dir/src/SteppingAction.cc.o -MF CMakeFiles/exampleB1.dir/src/SteppingAction.cc.o.d -o CMakeFiles/exampleB1.dir/src/SteppingAction.cc.o -c /home/luit/Hritik_laptop/my-git-folder/B1/src/SteppingAction.cc
 
 CMakeFiles/exampleB1.dir/src/SteppingAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleB1.dir/src/SteppingAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/src/SteppingAction.cc > CMakeFiles/exampleB1.dir/src/SteppingAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luit/Hritik_laptop/my-git-folder/B1/src/SteppingAction.cc > CMakeFiles/exampleB1.dir/src/SteppingAction.cc.i
 
 CMakeFiles/exampleB1.dir/src/SteppingAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleB1.dir/src/SteppingAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/src/SteppingAction.cc -o CMakeFiles/exampleB1.dir/src/SteppingAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luit/Hritik_laptop/my-git-folder/B1/src/SteppingAction.cc -o CMakeFiles/exampleB1.dir/src/SteppingAction.cc.s
 
 # Object files for target exampleB1
 exampleB1_OBJECTS = \
@@ -251,7 +251,7 @@ exampleB1: /home/luit/g4_try/geant4-v11.1.1-install/lib/libG4global.so
 exampleB1: /home/luit/g4_try/geant4-v11.1.1-install/lib/libG4ptl.so.2.3.3
 exampleB1: /home/luit/Product/Clhep/clhep-install/lib/libCLHEP-2.4.6.4.so
 exampleB1: CMakeFiles/exampleB1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable exampleB1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luit/Hritik_laptop/my-git-folder/B1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable exampleB1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/exampleB1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -263,6 +263,6 @@ CMakeFiles/exampleB1.dir/clean:
 .PHONY : CMakeFiles/exampleB1.dir/clean
 
 CMakeFiles/exampleB1.dir/depend:
-	cd /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1 /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1 /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/build /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/build /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/build/CMakeFiles/exampleB1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/luit/Hritik_laptop/my-git-folder/B1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luit/Hritik_laptop/my-git-folder/B1 /home/luit/Hritik_laptop/my-git-folder/B1 /home/luit/Hritik_laptop/my-git-folder/B1/build /home/luit/Hritik_laptop/my-git-folder/B1/build /home/luit/Hritik_laptop/my-git-folder/B1/build/CMakeFiles/exampleB1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/exampleB1.dir/depend
 

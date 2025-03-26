@@ -1,7 +1,7 @@
 CMakeFiles/exampleB1.dir/src/EventAction.cc.o: \
- /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/src/EventAction.cc \
+ /home/luit/Hritik_laptop/my-git-folder/B1/src/EventAction.cc \
  /usr/include/stdc-predef.h \
- /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/include/EventAction.hh \
+ /home/luit/Hritik_laptop/my-git-folder/B1/include/EventAction.hh \
  /home/luit/g4_try/geant4-v11.1.1-install/include/Geant4/G4UserEventAction.hh \
  /home/luit/g4_try/geant4-v11.1.1-install/include/Geant4/globals.hh \
  /home/luit/g4_try/geant4-v11.1.1-install/include/Geant4/G4ios.hh \
@@ -235,7 +235,7 @@ CMakeFiles/exampleB1.dir/src/EventAction.cc.o: \
  /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h \
- /home/luit/Hritik_laptop/my-git-folder/NaI_simple/B1/include/RunAction.hh \
+ /home/luit/Hritik_laptop/my-git-folder/B1/include/RunAction.hh \
  /home/luit/g4_try/geant4-v11.1.1-install/include/Geant4/G4UserRunAction.hh \
  /home/luit/g4_try/geant4-v11.1.1-install/include/Geant4/G4Accumulable.hh \
  /home/luit/g4_try/geant4-v11.1.1-install/include/Geant4/G4VAccumulable.hh \

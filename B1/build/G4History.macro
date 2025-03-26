@@ -35,3 +35,23 @@
 /vis/viewer/set/autoRefresh true
 /vis/viewer/refresh
 /vis/verbose warnings
+/vis/set/touchable World 0 MgO_Physical_Front 0
+/vis/set/touchable World 0 Lead_f 0
+/vis/set/touchable World 0 Lead_b 0
+/vis/set/touchable World 0 Lead 0
+/vis/set/touchable World 0 Al_Physical 0
+/vis/set/touchable World 0 MgO_Physical 0
+/vis/set/touchable World 0 NaI_Tl_Physical 0
+/vis/set/touchable World 0 MgO_Physical_Front 0
+/vis/set/touchable World 0 Al_Physical_Front 0
+/vis/set/touchable World 0 Al_Physical_Front 0
+/vis/set/touchable World 0 MgO_Physical_Front 0
+/vis/set/touchable World 0 MgO_Physical_Front 0
+/vis/set/touchable World 0 Al_Physical_Front 0
+/vis/set/touchable World 0 Al_Physical_Front 0
+/vis/set/touchable World 0 Al_Physical_Front 0
+/vis/set/touchable World 0 Al_Physical_Front 0
+/vis/set/touchable World 0 Al_Physical_Front 0
+/vis/set/touchable World 0 Al_Physical_Front 0
+/vis/set/touchable World 0 MgO_Physical_Front 0
+/vis/set/touchable World 0 MgO_Physical_Front 0
